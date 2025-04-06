@@ -1,11 +1,4 @@
 import pandas as pd
-import seaborn as sns
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score, ConfusionMatrixDisplay
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import GradientBoostingClassifier
 import joblib
 import streamlit as st
