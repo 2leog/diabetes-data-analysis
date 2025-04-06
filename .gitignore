@@ -1,0 +1,5 @@
+.DS_Store
+diabetes/
+diabetes_data_analysis_tests.ipynb
+predictions.csv
+app_test.py
