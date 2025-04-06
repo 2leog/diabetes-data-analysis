@@ -19,6 +19,7 @@ st.title('Diabetes classification')
 with st.sidebar:
     st.header('Data information')
     st.caption('This model was trained using the diabetes dataset found in [here](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)')
+    st.caption('For an exploratory data analysis and to verify how this model was trained, check the jupyter notebook in the [repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/diabetes_data_analysis.ipynb)')
     st.header('Data requirements')
     st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features.')
     with st.expander('Data format'):
