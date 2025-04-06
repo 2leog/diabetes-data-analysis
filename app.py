@@ -24,6 +24,8 @@ import streamlit as st
 st.title('Diabetes classification')
 
 with st.sidebar:
+    st.header('Data information')
+    st.caption('This model was trained using the diabetes dataset found in [here](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)')
     st.header('Data requirements')
     st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features')
     with st.expander('Data format'):
