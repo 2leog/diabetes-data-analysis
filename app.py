@@ -19,7 +19,8 @@ st.title('Diabetes classification')
 with st.sidebar:
     st.header('Data information')
     st.caption('This model was trained using the diabetes dataset found in [here](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)')
-    st.caption('For an exploratory data analysis and to verify how this model was trained, check the jupyter notebook in the [repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/diabetes_data_analysis.ipynb)')
+    st.caption('For exploratory data analysis and to verify how this model was trained, check this [jupyter notebook](https://github.com/2leog/diabetes-data-analysis/blob/master/diabetes_data_analysis.ipynb)')
+    st.caption('For more general information about this project check the [github repo](https://github.com/2leog/diabetes-data-analysis)')
     st.header('Data requirements')
     st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features.')
     with st.expander('Data format'):
@@ -27,7 +28,7 @@ with st.sidebar:
         st.markdown(' - separated by coma')
         st.markdown(' - delimited by "."')
         st.markdown(' - first row - header')
-    st.caption('You can download an example test set in the [github repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/X_test.csv)')
+    st.caption('You can download a test set in [here](https://github.com/2leog/diabetes-data-analysis/blob/master/X_test.csv)')
     st.divider()
     st.caption('Developed by Leonardo Guimarães de Oliveira.')
 
