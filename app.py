@@ -21,12 +21,12 @@ with st.sidebar:
     st.caption('This model was trained using the diabetes dataset found in [here](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)')
     st.header('Data requirements')
     st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features.')
-    st.caption('You can download an example test set in the [github repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/X_test.csv)')
     with st.expander('Data format'):
         st.markdown(' - utf-8')
         st.markdown(' - separated by coma')
         st.markdown(' - delimited by "."')
         st.markdown(' - first row - header')
+    st.caption('You can download an example test set in the [github repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/X_test.csv)')
     st.divider()
     st.caption('Developed by Leonardo Guimarães de Oliveira.')
 
