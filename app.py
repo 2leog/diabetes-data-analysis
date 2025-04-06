@@ -20,7 +20,7 @@ with st.sidebar:
     st.header('Data information')
     st.caption('This model was trained using the diabetes dataset found in [here](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)')
     st.header('Data requirements')
-    st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features')
+    st.caption('To inference the model you need to upload a dataframe in csv format with eight columns/features.\nYou can find a test set to utilize as an example in the [github repo of this project](https://github.com/2leog/diabetes-data-analysis/blob/master/X_test.csv)')
     with st.expander('Data format'):
         st.markdown(' - utf-8')
         st.markdown(' - separated by coma')
